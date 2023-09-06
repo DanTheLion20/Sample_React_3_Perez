@@ -18,15 +18,15 @@ const NavigationBar = () => {
             <Nav.Link>
                   <Link to="./contact">Contact Us</Link>
             </Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <NavDropdown title="Hooks" id="basic-nav-dropdown">
+              <NavDropdown.Item>
+                <Link to="/classState">Class Use State</Link> 
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item>
+                <Link to="/functionalUseState">Functional use</Link> 
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/basicFormHandling">Basic Form Handling</Link> 
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
